@@ -1,9 +1,4 @@
 .ca-c-card {
-    border: none;
-    overflow: hidden;
-    border-radius: 5px;
-    background-color: aliceblue;
-
     &__header {
         padding: 15px;
         background-color: #5fb5ff;
@@ -18,24 +13,11 @@
             }
         }
     }
-    &__header-icon {
-        width: 40px;
-        margin-right: 10px;
-    }
     &__content {
         padding: 15px;
         overflow: hidden;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         background-color: aliceblue;
-    }
-    &__content-item {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-      
-        p:nth-of-type(1) {
-          margin-right: auto;
-        }
     }
 }
